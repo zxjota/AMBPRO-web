@@ -1,208 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - AMBPRO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        body {
-            background-color: #f8f9fa;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        header {
-            background: linear-gradient(135deg, #1a3a8f 0%, #2a5bd7 100%);
-            color: white;
-            padding: 2rem 0;
-            position: relative;
-            overflow: hidden;
-        }
-        .header-content {
-            text-align: center;
-            position: relative;
-            z-index: 2;
-        }
-        .logo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .logo-icon {
-            font-size: 2.5rem;
-            margin-right: 15px;
-            color: #4fc3f7;
-        }
-        .app-name {
-            font-size: 2.8rem;
-            font-weight: 700;
-        }
-        .tagline {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-top: 5px;
-        }
-        .privacy-container {
-            display: flex;
-            margin: 2rem 0;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            overflow: hidden;
-        }
-        .sidebar {
-            width: 280px;
-            background-color: #f1f7ff;
-            padding: 2rem 1.5rem;
-            border-right: 1px solid #eaeaea;
-        }
-        .sidebar h3 {
-            color: #1a3a8f;
-            margin-bottom: 1.5rem;
-        }
-        .nav-links {
-            list-style: none;
-        }
-        .nav-links a {
-            display: block;
-            padding: 10px;
-            color: #444;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-        .nav-links a.active,
-        .nav-links a:hover {
-            background-color: #e0e7ff;
-            color: #1a3a8f;
-            font-weight: 600;
-        }
-        .content {
-            flex: 1;
-            padding: 2.5rem 3rem;
-        }
-        .content h1 {
-            color: #1a3a8f;
-            font-size: 2.2rem;
-            margin-bottom: 1.5rem;
-        }
-        .last-updated {
-            background-color: #f0f7ff;
-            padding: 12px 20px;
-            border-left: 4px solid #1a3a8f;
-            margin-bottom: 2rem;
-        }
-        .section {
-            margin-bottom: 2.5rem;
-        }
-        .section h2 {
-            color: #1a3a8f;
-            margin-bottom: 1rem;
-        }
-        footer {
-            background-color: #1a1a2e;
-            color: #ddd;
-            text-align: center;
-            padding: 2.5rem 0;
-            margin-top: 3rem;
-        }
-        .footer-logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: white;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - AMBPRO</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;}
+    body{background:#f8f9fa;color:#333;line-height:1.6;}
+    .container{max-width:700px;margin:0 auto;padding:0 16px;}
+    header{background:linear-gradient(135deg,#1a3a8f 0%,#2a5bd7 100%);color:#fff;padding:2rem 0;text-align:center;}
+    .logo{display:flex;align-items:center;justify-content:center;margin-bottom:8px;}
+    .logo-icon{font-size:2rem;margin-right:10px;color:#4fc3f7;}
+    .app-name{font-size:2rem;font-weight:700;}
+    .tagline{font-size:0.9rem;opacity:0.9;}
+    .toc{background:#e0e7ff;border-radius:8px;padding:12px;margin:1rem 0;}
+    .toc h3{color:#1a3a8f;margin-bottom:8px;}
+    .toc a{display:block;color:#1a3a8f;text-decoration:none;padding:6px 0;border-radius:4px;}
+    .toc a.active, .toc a:hover{background:#cfe0ff;font-weight:600;}
+    .section{margin-bottom:2rem;}
+    .section h2{color:#1a3a8f;font-size:1.2rem;margin-bottom:0.5rem;display:flex;align-items:center;}
+    .section h2 i{margin-right:8px;}
+    .last-updated{background:#f0f7ff;padding:10px 12px;border-left:4px solid #1a3a8f;margin-bottom:1rem;font-size:0.9rem;}
+    table.data-table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.9rem;}
+    table.data-table th, table.data-table td{padding:8px 10px;text-align:left;border-bottom:1px solid #ddd;}
+    table.data-table th{background:#1a3a8f;color:#fff;font-weight:600;}
+    .highlight-box{background:#f8fbff;border-left:4px solid #4fc3f7;padding:10px 12px;margin:1rem 0;border-radius:4px;font-size:0.9rem;}
+    .contact-section{background:linear-gradient(135deg,#f8fbff 0%,#e8f4ff 100%);padding:1.5rem;border-radius:8px;margin:2rem 0;text-align:center;border:1px solid #e0e7ff;font-size:0.9rem;}
+    .email-contact{display:inline-flex;align-items:center;background:#fff;padding:8px 16px;border-radius:50px;margin-top:8px;text-decoration:none;color:#1a3a8f;font-weight:600;transition:all 0.3s;}
+    .email-contact i{margin-right:6px;}
+    .email-contact:hover{background:#1a3a8f;color:#fff;transform:translateY(-2px);}
+    footer{background:#1a1a2e;color:#ddd;text-align:center;padding:2rem 0;margin-top:2rem;font-size:0.85rem;}
+    .details-toggle{background:#f0f7ff;border:none;padding:6px 12px;border-radius:4px;color:#1a3a8f;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;margin-top:8px;}
+    .details-toggle i{margin-right:4px;transition:transform 0.3s;}
+    .details-toggle.active i{transform:rotate(180deg);}
+    .details-content{max-height:0;overflow:hidden;transition:max-height 0.5s;}
+    .details-content.show{max-height:1000px;}
+</style>
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <div class="header-content">
-            <div class="logo">
-                <i class="fas fa-shield-alt logo-icon"></i>
-                <h1 class="app-name">AMBPRO</h1>
-            </div>
-            <p class="tagline">Your privacy is our priority</p>
-        </div>
+    <div class="logo">
+        <i class="fas fa-shield-alt logo-icon"></i>
+        <h1 class="app-name">AMBPRO</h1>
     </div>
+    <p class="tagline">Your privacy is our priority</p>
 </header>
 
 <div class="container">
-    <div class="privacy-container">
-        <nav class="sidebar">
-            <h3>Contents</h3>
-            <ul class="nav-links">
-                <li><a href="#introduction" class="active">Introduction</a></li>
-                <li><a href="#data-collection">Data Collection</a></li>
-                <li><a href="#data-use">Use of Information</a></li>
-                <li><a href="#data-sharing">Data Sharing</a></li>
-                <li><a href="#user-rights">Your Rights</a></li>
-            </ul>
-        </nav>
 
-        <main class="content">
-            <h1>Privacy Policy for AMBPRO</h1>
-
-            <div class="last-updated">
-                <p><strong>Last Updated:</strong> January 19, 2026</p>
-                <p>This Privacy Policy explains how AMBPRO collects, uses, and protects your personal information.</p>
-            </div>
-
-            <section id="introduction" class="section">
-                <h2>1. Introduction</h2>
-                <p>
-                    Welcome to AMBPRO ("we", "our", or "us"). We are committed to protecting your privacy and safeguarding your personal information when you use our application.
-                </p>
-            </section>
-
-            <section id="data-collection" class="section">
-                <h2>2. Information We Collect</h2>
-                <p>
-                    When you use AMBPRO, we may collect information you provide directly as well as information collected automatically to improve our services.
-                </p>
-            </section>
-
-            <section id="data-use" class="section">
-                <h2>3. How We Use Your Information</h2>
-                <p>
-                    AMBPRO uses collected data to operate, maintain, improve functionality, and ensure security.
-                </p>
-            </section>
-
-            <section id="data-sharing" class="section">
-                <h2>4. Data Sharing</h2>
-                <p>
-                    We do not sell your personal data. Information may be shared only with trusted service providers or when legally required.
-                </p>
-            </section>
-
-            <section id="user-rights" class="section">
-                <h2>5. Your Rights</h2>
-                <p>
-                    You have the right to access, update, or request deletion of your personal data. Please contact us for assistance.
-                </p>
-            </section>
-
-        </main>
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h3><i class="fas fa-list"></i> Contents</h3>
+        <a href="#introduction" class="active"><i class="fas fa-info-circle"></i> Introduction</a>
+        <a href="#data-collection"><i class="fas fa-database"></i> Data Collection</a>
+        <a href="#data-use"><i class="fas fa-cogs"></i> Use of Information</a>
+        <a href="#data-sharing"><i class="fas fa-share-alt"></i> Data Sharing</a>
+        <a href="#cookies"><i class="fas fa-cookie-bite"></i> Cookies & Tracking</a>
+        <a href="#data-security"><i class="fas fa-lock"></i> Data Security</a>
+        <a href="#data-retention"><i class="fas fa-clock"></i> Data Retention</a>
+        <a href="#user-rights"><i class="fas fa-user-check"></i> Your Rights</a>
+        <a href="#international"><i class="fas fa-globe"></i> International Transfers</a>
+        <a href="#children"><i class="fas fa-child"></i> Children's Privacy</a>
+        <a href="#third-party"><i class="fas fa-external-link-alt"></i> Third-Party Links</a>
+        <a href="#changes"><i class="fas fa-exchange-alt"></i> Policy Changes</a>
     </div>
+
+    <div class="last-updated">
+        <p><strong>Last Updated:</strong> January 19, 2026</p>
+        <p>This Privacy Policy describes how AMBPRO collects, uses, and discloses your personal information when you use our application.</p>
+    </div>
+
+    <!-- Sections -->
+
+    <section id="introduction" class="section">
+        <h2><i class="fas fa-info-circle"></i> 1. Introduction</h2>
+        <p>Welcome to AMBPRO ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AMBPRO application (the "App").</p>
+        <p>By accessing or using AMBPRO, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy. If you do not agree with this policy, please do not access or use our application.</p>
+        <p>This Privacy Policy applies to all information collected through our application and any related services, sales, marketing, or events.</p>
+    </section>
+
+    <section id="data-collection" class="section">
+        <h2><i class="fas fa-database"></i> 2. Information We Collect</h2>
+        <p>We collect information that you provide directly to us, as well as information automatically collected when you use AMBPRO.</p>
+        <h3>Information You Provide to Us</h3>
+        <ul>
+            <li><strong>Account Information:</strong> Your name, email address, username, and password when you create an account.</li>
+            <li><strong>Profile Information:</strong> Information you choose to provide in your profile, such as profile picture, bio, and preferences.</li>
+            <li><strong>User Content:</strong> Content you create, upload, or share through the App.</li>
+            <li><strong>Communication Data:</strong> Information you provide when you contact us for support or with inquiries.</li>
+            <li><strong>Payment Information:</strong> If you make purchases through the App, we collect payment information, though we use third-party payment processors and do not store full credit card details.</li>
+        </ul>
+        <h3>Information Collected Automatically</h3>
+        <ul>
+            <li><strong>Device Information:</strong> Device type, operating system, unique device identifiers, mobile network information.</li>
+            <li><strong>Log Data:</strong> IP address, browser type, pages visited, access times, and referring URLs.</li>
+            <li><strong>Usage Information:</strong> How you interact with the App, features used, time spent, and preferences.</li>
+            <li><strong>Location Data:</strong> With your permission, we may collect information about your precise or approximate location.</li>
+            <li><strong>Performance Data:</strong> Crash reports, performance diagnostics, and error reports.</li>
+        </ul>
+    </section>
+
+    <section id="data-use" class="section">
+        <h2><i class="fas fa-cogs"></i> 3. How We Use Your Information</h2>
+        <p>We use the information we collect for various purposes, including to provide, maintain, improve the App, process transactions, communicate updates, personalize experiences, monitor usage, detect issues, comply with legal obligations, and (with consent) send promotional communications.</p>
+    </section>
+
+    <section id="data-sharing" class="section">
+        <h2><i class="fas fa-share-alt"></i> 4. How We Share Your Information</h2>
+        <p>We do not sell, trade, or rent your personal information. We may share your information with service providers, legal authorities, business transfers, or with your consent as described in the full policy.</p>
+    </section>
+
+    <section id="cookies" class="section">
+        <h2><i class="fas fa-cookie-bite"></i> 5. Cookies and Tracking Technologies</h2>
+        <p>We use cookies and similar tracking technologies to track activity on our application and hold certain information to enhance your experience.</p>
+        <button class="details-toggle" id="cookieToggle"><i class="fas fa-chevron-down"></i> View Cookie Details</button>
+        <div class="details-content" id="cookieDetails">
+            <table class="data-table">
+                <thead>
+                    <tr><th>Cookie Name</th><th>Purpose</th><th>Duration</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>session_id</td><td>Maintains your session state</td><td>Session</td></tr>
+                    <tr><td>preferences</td><td>Stores your app preferences</td><td>1 year</td></tr>
+                    <tr><td>_ga</td><td>Google Analytics tracking</td><td>2 years</td></tr>
+                    <tr><td>_gid</td><td>Google Analytics tracking</td><td>24 hours</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. Some parts of the App may not function without cookies.</p>
+    </section>
+
+    <section id="data-security" class="section">
+        <h2><i class="fas fa-lock"></i> 6. Data Security</h2>
+        <p>We implement technical and organizational measures including encryption, access control, secure development practices, and employee training to protect your information. No method is 100% secure, but we strive to protect your data.</p>
+    </section>
+
+    <section id="data-retention" class="section">
+        <h2><i class="fas fa-clock"></i> 7. Data Retention</h2>
+        <p>We retain personal information only as long as necessary for the purposes outlined in this Privacy Policy, or as required by law. When no longer needed, data is deleted or anonymized.</p>
+    </section>
+
+    <section id="user-rights" class="section">
+        <h2><i class="fas fa-user-check"></i> 8. Your Rights</h2>
+        <p>Depending on your location, you may have rights such as access, correction, deletion, restriction, portability, objection, or withdrawal of consent. Contact us to exercise your rights.</p>
+    </section>
+
+    <section id="international" class="section">
+        <h2><i class="fas fa-globe"></i> 9. International Data Transfers</h2>
+        <p>We may transfer your data to countries with different data protection laws, including the United States. EEA/UK/Swiss users are protected via standard contractual clauses.</p>
+    </section>
+
+    <section id="children" class="section">
+        <h2><i class="fas fa-child"></i> 10. Children's Privacy</h2>
+        <p>AMBPRO is not intended for children under 13. We do not knowingly collect data from children under 13. Parents should review the App for ages 13-18.</p>
+    </section>
+
+    <section id="third-party" class="section">
+        <h2><i class="fas fa-external-link-alt"></i> 11. Third-Party Links</h2>
+        <p>AMBPRO may contain links to third-party sites. We are not responsible for their content or privacy practices. Review their privacy policies accordingly.</p>
+    </section>
+
+    <section id="changes" class="section">
+        <h2><i class="fas fa-exchange-alt"></i> 12. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy. Updates will be posted here and notified via in-app or email for significant changes. Continued use constitutes acceptance of updates.</p>
+        <div class="highlight-box">
+            <p><strong>Significant Changes:</strong> Major changes are communicated at least 30 days before they take effect.</p>
+        </div>
+    </section>
+
+    <div class="contact-section">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <p>If you have questions or requests regarding this Privacy Policy, contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:nayeemmiah24@gmail.com">nayeemmiah24@gmail.com</a></p>
+        <p><strong>Data Protection Officer:</strong> Nayeem Miah</p>
+        <p><strong>Response Time:</strong> Within 7 business days</p>
+        <a href="mailto:nayeemmiah24@gmail.com" class="email-contact"><i class="fas fa-envelope"></i> Contact Privacy Team</a>
+    </div>
+
 </div>
 
 <footer>
-    <div class="container">
-        <div class="footer-logo">AMBPRO</div>
-        <p>© 2026 AMBPRO. All rights reserved.</p>
-    </div>
+    <p>© 2026 AMBPRO. All rights reserved.</p>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    // Smooth scroll & active TOC
+    const links = document.querySelectorAll('.toc a');
+    links.forEach(link=>{
+        link.addEventListener('click',function(e){
+            e.preventDefault();
+            links.forEach(l=>l.classList.remove('active'));
+            this.classList.add('active');
+            const target = document.querySelector(this.getAttribute('href'));
+            if(target){window.scrollTo({top:target.offsetTop-16,behavior:'smooth'});}
+        });
+    });
+
+    // Cookie toggle
+    const toggle=document.getElementById('cookieToggle');
+    const details=document.getElementById('cookieDetails');
+    toggle.addEventListener('click',function(){
+        details.classList.toggle('show');
+        toggle.classList.toggle('active');
+        toggle.innerHTML=details.classList.contains('show')?
+        '<i class="fas fa-chevron-up"></i> Hide Cookie Details':
+        '<i class="fas fa-chevron-down"></i> View Cookie Details';
+    });
+});
+</script>
 
 </body>
 </html>
